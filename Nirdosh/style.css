@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar input[type=text] {
+    float: right;
+    margin-left: 20px;
+    padding: 0 6px;
+    border: none;
+    margin-right: 16px; 
+    font-size: 17px;
+    height: 25px;
+    width: 400px;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: century;
+  }
+.navbar{
+    display: flex;
+    top: 0;
+    position: sticky;
+    background-color: orange;
+}
+.navbar ul{
+    padding: 20px 0px;
+    display: flex;
+    list-style: none;
+    justify-content: end; 
+    font-family: century;
+    font-size: 1.2rem;
+}
+.navbar ul li a{
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    background-color: aliceblue;
+    color: orange;
+    font-weight: bold;
+}
+#home h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#home h3{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 200px;
+}
+#home{
+    height: 800px;
+    width: 100%;
+    background-image: linear-gradient(#FD841F, #d39205,#572944, #9C2C77);
+}
+/* #home::before{
+    background: url('body.jpg') no-repeat center center/cover;  
+} */
+.homeimages img{
+    display: flex;
+    height: 300px;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.homeimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.homeimages h1{
+    margin-bottom: 15px;
+}
+.homeimages h1:hover{
+    background-color: #d39205;
+}
+#services{
+    padding:0 10%;
+    background-image: linear-gradient(#FD841F, #d39205,#572944, #9C2C77);
+    box-sizing: border-box;
+}
+#services h2{
+    text-align: center;
+    font-size: 40px;
+}
+#services{
+    text-align: left;
+    color: whitesmoke;
+}
+#services p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#services h1{
+    font-size: 30px;
+}
+.flexing p{
+text-align: left;
+}
+#products{
+    background-image: linear-gradient(#9C2C77, #572944 , #d39205, #FD841F);
+    text-align: center;
+    padding: 2% 10% ;
+    
+}
+#products h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+.apples{
+    display: flex;
+    gap: 30px;
+    color: white;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.apples li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+#footer{
+    padding: 1% 2%;
+}
+#services img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+#products img{
+    border-radius: 10px;
+}
