@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button>
+                <img src="img/search.png">
+            </button>
+        </div>
+
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        
+        <div class="weather">
+            <h1 class="temp"></h1>
+            <h2 class="date"></h2>
+            <h3 class="city"></h3>
+            <p class="pressure"></p>
+            <p class="humidity"></p>
+            <p class="wind"></p>
+            <img src="img/rain.png" class="weather-icon">
+            <h4 class="icon-name"></h4>
+            
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Weather.js"></script>
+</body>
+</html>
