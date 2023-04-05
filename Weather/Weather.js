@@ -25,7 +25,7 @@ async function checkWeather(city){
 
     console.log(data);
 
-    const options = { month: 'short', day: 'numeric', year: 'numeric' };
+    const options = { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric' };
     document.querySelector(".date").innerHTML = new Date().toLocaleDateString('en-US', options);
 
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "&deg;C";
